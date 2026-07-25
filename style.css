@@ -1,0 +1,122 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #ead8c0;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.pagetemplate {
+  .title {
+    width: 300px;
+    margin-bottom: 0;
+    font-size: xxx-large;
+    cursor: pointer;
+  }
+
+  .container {
+    margin-top: 40px;
+
+    color: #5c4e43;
+  }
+  @media screen and (width >= 800px) {
+    .container {
+      margin-left: calc((100vw - 70vw) / 2);
+      margin-right: calc((100vw - 70vw) / 2);
+    }
+  }
+
+  @media screen and (width < 800px) {
+    .paragraph {
+      margin: 10px;
+    }
+  }
+  .border {
+    position: absolute;
+    width: 260px;
+    border: 2px solid #5c4e43;
+    filter: url(#squiggle);
+  }
+}
+
+@media screen and (width >= 800px) {
+  .fullscreen-container {
+    margin-left: calc((100vw - 80vw) / 2);
+    margin-right: calc((100vw - 80vw) / 2);
+    margin-top: 10px;
+  }
+}
+
+.unvote {
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+.ago {
+  opacity: 0.5;
+  margin-left: 10px;
+}
